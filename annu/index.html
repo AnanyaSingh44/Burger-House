@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger House</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">
+                        <img src="assets/logo-dark.png" alt="logo" class="nav__logo-dark">
+                    </a>
+                    <img src="assets/logo-white.png" alt="logo" class="nav__logo-white">
+                    </a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+                </div>
+                <ul class="nav__links" id="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#special">SPECIAL</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#event">EVENT</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                    <li><a href="#signin"></a></li>
+                </ul>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <div class="header__image">
+                <img src="assets/header.png" alt="header">
+            </div>
+            <div class="header__content">
+                <h2>ITS TIME FOR GREAT TASTE OF BURGER</h2>
+                <h1>
+                    BURGER<br><span>WEEK
+                        
+                </h1>
+            </div>
+        </div>
+    </header>
+   <section class="section__container banner__container" id="special">
+    <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MOST POPULAR BURGER</h4>
+    </div>
+    <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MORE FUN<br>MORE TASTE</h4>
+    </div>
+    <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>FRESH AND CHILL</h4>
+    </div>
+   </section>
+   
+   <section class="section__container order__container" id="menu">
+    <h2 style="text-align: center;">    ALWAYS TASTY BURGER</h2>
+    <h2 class="section__header">CHOOSE AND ENJOY</h2>
+    <p class="section__description">
+        Indulge in savory bliss at our burger shop! Sink your teeth into juicy patties nestled between soft buns, bursting with flavor. From classic cheeseburgers to gourmet creations, we've got your cravings covered. Savor every bite of our mouthwatering offerings and treat yourself to a culinary adventure. Come join us for a burger experience that will leave you craving for more
+    </p>
+    <div class="order__grid">
+        <div class="order__card">
+            <img src="assets/order-1.png" alt="order">
+            <h4>CHICKEN BURGER</h4>
+            <P>Indulge in our mouthwatering chicken burger – succulent grilled chicken breast, crisp lettuce, ripe tomatoes, and creamy mayo sandwiched between a toasted bun. A tantalizing treat for your taste buds!</P>
+            <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+            <img src="assets/order-2.png" alt="order">
+            <h4>GARDEN DELIGHT BURGER</h4>
+            <P>Introducing our Garden Delight Burger! A symphony of grilled vegetables, crispy lettuce, ripe tomatoes, and creamy avocado, nestled between toasted buns. A veggie lover's paradise in every bite!</P>
+            <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+            <img src="assets/order-3.png" alt="order">
+            <h4>    SPICE FUSION BURGER</h4>
+            <P>Discover the exotic Keema Veg Burger, blending flavorful minced vegetables with aromatic spices, topped with crisp lettuce, juicy tomatoes, and zesty mint chutney, all nestled within a toasted bun. A fusion delight for your taste buds!</P>
+            <button class="btn">ORDER NOW</button>
+        </div>
+    </div>
+    <br>
+    <br>
+   </section>
+  <section class="section__container event__container" id=""event>
+<div class="event__content">
+    <div class="event__image">
+        <img src="assets/event.png" alt="event">
+    </div>
+    <div class="event__details">
+        <h2>DISCOVER</h2>
+        <h2 class="section__header">upcoming events</h2>
+        <p class="section__description">
+            Experience the thrill of live music performances by local artists as you savor each mouthwatering bite. Our talented chefs will be on hand to showcase their culinary expertise through interactive cooking demos, revealing the secrets behind the perfect burger.
+Bring the whole family along and immerse yourselves in a day of fun and excitement. Kids will love the dedicated Kids Zone, complete with entertaining activities and games to keep them engaged.
+        </p>
+    </div>
+</div>
+  </section>
+
+  <section class="reservation" id="contact">
+    <div class="section__container reservation__container">
+        <h3>RESERVATION</h3>
+        <h2><div class="section__header">BOOK YOUR TABLE</h2>
+            <form action="insert.php" method="post">
+            <input type="text" placeholder="name" name="n1">
+            <input type="email" placeholder="email" name="e1">
+            <input type="date" placeholder="date" name="d1">
+            <input type="time" placeholder="time" name="t1">
+            <input type="number" placeholder="people" name="num1">
+            <button class="btn" type="submit" name="sub1">FIND TABLE</button>
+        </form>
+    </div>
+    <img src="assets/reservation-bg-1.png" alt="reservation" class="reservation-bg-1">
+    <img src="assets/reservation-bg-2.png" alt="reservation" class="reservation-bg-2">
+  </section>
+  <footer class="footer">
+    <div class="section__container footer__container">
+        <div class="footer__logo">
+            <img src="assets/footer-bg.png" alt="">
+        </div>
+        <div class="footer__content">
+            <p>
+                Welcome to Burger Company,where passion for exceptional food,genuine hospitality come together. Our story is one of dedicated crafting the burger experience,from sourcing the finest ingredients to delivering unparalleled taste in every bite.
+            </p>
+            <div >
+                <ul class="footer__links">
+                <li>
+                    <span><img src="assets/map-marker-2-16.ico" alt=""></span>
+                    MG Road,Lucknow,226010
+                </li>
+                <li>
+                    <span><img src="assets/mail-16.ico" alt=""></span>
+                    info@burgerhouse.com
+                </li>
+            </ul>
+                <div class="footer__socials">
+                    <a href="#"><img src="assets/facebook-3-16.ico" alt=""></a>
+                    <a href="#"><img src="assets/instagram-16.ico" alt=""></a>
+                    <a href="#"><img src="assets/twitter-3-16.ico" alt=""></a>
+                    <a href="#"><img src="assets/whatsapp-16.ico" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery.All rights reserved. 
+    </div>
+  </footer>
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="index1.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+This project is about a burger resteraunt named 'BURGER HOUSE'. 
+Start with index.html file and the rest of the files are connected with it.
+
+
+
+
+GROUP MEMBERS
+
+KSHITIJ SHARMA        BT23ECE110
+ANANYA SINGH          BT23ECE099
